@@ -18,4 +18,8 @@ class Doctor
     Appointment.all do |appointment| appointment.doctor == self
     end
   end
+
+  def new_appointment
+
+  end
 end
