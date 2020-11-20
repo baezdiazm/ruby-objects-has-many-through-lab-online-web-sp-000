@@ -25,7 +25,7 @@ class Doctor
   end
 
   def patients
-    appointments.doctor
+    appointments.patients
   end
 
 end
