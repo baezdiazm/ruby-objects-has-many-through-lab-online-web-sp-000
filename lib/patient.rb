@@ -14,4 +14,9 @@ class Patient
     @name
   end
 
+  def appointments
+    Appointment.all.collect do |appointnment| appointment.patient == self
+    end
+  end
+
 end
