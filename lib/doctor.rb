@@ -23,4 +23,8 @@ class Doctor
     app = Appointment.new(date, patient, self)
     app
   end
+
+  def patients
+
+  end
 end
